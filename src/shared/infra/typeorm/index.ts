@@ -1,3 +1,3 @@
-import { createConnection } from 'typeorm';
+import { createConnections } from 'typeorm';
 
-createConnection(); // Vai percorrer os arquivos e procurar o ormconfig para executar.
+createConnections(); // Vai percorrer os arquivos e procurar o ormconfig para executar.
